@@ -59,6 +59,6 @@ The `build_stats` method has a time complexity of O(nlogn) in the worst case sce
 
 This was a conscious technical decision, sacrificing a little bit of time complexity in favour of code legibility.
 
-If extracting every little bit of performance was a key requirement, we could use a list insted of a hashmap and insert the itens already at the correct index.
+If extracting every little bit of performance was a key requirement, we could use a list instead of a hashmap and insert the itens already at the correct index.
 
 This would avoid the need to sort the list but the code would be much harder to understand.
